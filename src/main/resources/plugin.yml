@@ -1,0 +1,7 @@
+name: HealthDonor
+version: 1.0
+author: LaxWasHere
+main: net.poweredbyhate.healthdonor.HealthDonor
+commands:
+  healthdonor:
+    aliases: [hd]
