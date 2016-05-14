@@ -36,7 +36,7 @@ public class HealthDonorCommand implements CommandExecutor {
             }
             Player p2 = Bukkit.getPlayerExact(args[0]);
             if (p.getUniqueId() == p2.getUniqueId()) { //UUID SUPPORT! 10/10 MORE DOWNLAODS
-                p.sendMessage(ChatColor.RED + args[0] + ChatColor.DARK_RED + " is you!" );
+                p.sendMessage(ChatColor.RED + p2.getName() + ChatColor.DARK_RED + " is you!" );
                 return false;
             }
             if (p.getGameMode() == GameMode.SURVIVAL || p2.getGameMode() == GameMode.SURVIVAL) {
